@@ -1,0 +1,1 @@
+{"metrics":{"completion_time":1731906330932,"start_time":1731906329895},"secondary_sources":[],"schema_version":"1.1","links":{"opt":{},"bin":{"marksman":"marksman-linux-x64"},"share":{}},"primary_source":{"id":"pkg:github\/artempyanykh\/marksman@2024-10-07","type":"registry+v1"},"name":"marksman"}

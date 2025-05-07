@@ -1,0 +1,82 @@
+/* Waybar itself */
+
+*{
+    border: none;
+    border-radius: 0;
+    font-family: "Jetbrains Mono Nerd Font";
+    font-size: 14;
+}
+
+window#waybar{
+
+    background-color: rgba(0,0,0,0);
+    color: rgba(221,202,212,1);
+        
+}
+
+
+.modules-left {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-left: 0px;
+    margin-right: 5px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 2em;
+
+}
+
+.modules-center {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 2em;
+
+}
+
+.modules-right {
+
+    background-color: rgba(51, 45, 67, 1);
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 2em;
+
+}
+
+
+#window {
+
+    margin: .5em .3em .5em .3em;
+    padding: .2em;
+
+}
+
+/* Left Modules */
+/* Mpris media control */
+/* NOTES #mpris.status or #mpris.player */
+#mpris {
+
+    padding-left: .5em;
+    padding-right: .5em;
+
+}
+
+
+/* pulseaudo module */
+#tray,
+#pulseaudio {
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+/* clock */
+#clock {
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+}

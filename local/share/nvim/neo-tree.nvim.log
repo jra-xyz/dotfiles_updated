@@ -1,0 +1,9 @@
+[INFO  Wed 29 Jan 2025 07:06:26 AM PST] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:110: No items, skipping git ignored/status lookups
+[INFO  Wed 29 Jan 2025 08:01:24 AM PST] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:594: Renamed swap_ws.sh successfully
+[INFO  Wed 29 Jan 2025 08:20:48 AM PST] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:594: Renamed event_listener.sh successfully
+[INFO  Thu 03 Apr 2025 09:59:38 AM PDT] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:245: Toggling hidden files: true
+[INFO  Thu 03 Apr 2025 09:59:38 AM PDT] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:245: Toggling hidden files: false
+[INFO  Thu 03 Apr 2025 10:06:01 AM PDT] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:594: Renamed latex.lua successfully
+[INFO  Thu 03 Apr 2025 10:26:45 AM PDT] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:245: Toggling hidden files: true
+[INFO  Thu 03 Apr 2025 10:30:01 AM PDT] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:110: No items, skipping git ignored/status lookups
+[INFO  Thu 03 Apr 2025 10:30:04 AM PDT] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:110: No items, skipping git ignored/status lookups

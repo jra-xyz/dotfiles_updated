@@ -1,0 +1,51 @@
+{
+    "layer": "top",
+    "modules-left": ["mpris"],
+    "modules-center": [],
+    "modules-right": ["tray","custom/wallpaper","custom/screenshot","pulseaudio","clock"], 
+    "margin": "5 5 5 5",
+    "mode": "dock",
+    "exclusive": "true",
+    "mpris": {
+        "format": "{player_icon} <span foreground=\"#9E7D9Aff\"></span> {title} <span foreground=\"#9E7D9Aff\"></span> ",
+        "format-paused": "{player_icon} <span foreground=\"#9E7D9Aff\"></span> {status_icon} <span foreground=\"#9E7D9Aff\"></span> ",
+        "format-stopped": "{player_icon} <span foreground=\"#9E7D9Aff\"></span> {status_icon} <span foreground=\"#9E7D9Aff\"></span> ",
+        "format-noActivePlayer": "Test",
+        "player-icons": {
+            "default": "",
+            "spotify": "",
+            "firefox": ""
+        },
+        "status-icons": {
+            "paused": "󰏦",
+            "stopped": ""
+        }
+    },
+
+    "custom/wallpaper": {
+      "format": " 󰸉 ",
+      "on-click": "waypaper",
+
+    },
+
+    "custom/screenshot": {
+      "format": " 󰹑 ",
+      "on-click": "sh ~/.local/bin/screen_capture_prompt.sh",
+
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% 󰕾",
+        "format-muted": "Muted 󰝟",
+        "scroll-step": 2,
+        "on-click": "pavucontrol",
+        "on-right-click": "pulsemixer --id 0 --toggle-mute",
+        "ignored-sinks": ["Easy Effects Sink"]
+    },
+    "clock": {
+        "format": "{:%a %H:%M:%S} ",
+        "interval": 60,
+        "tooltip": true,
+        "tooltip-format": "{:%A, %B %d, %Y}"
+    }
+}
